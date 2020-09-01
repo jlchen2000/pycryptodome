@@ -29,7 +29,7 @@ For more information about each NIST curve see `FIPS 186-4`_, Section D.1.2.
 The following example demonstrates how to generate a new ECC key, export it,
 and subsequently reload it back into the application::
 
-    >>> from Crypto.PublicKey import ECC
+    >>> from Cryptodome.PublicKey import ECC
     >>>
     >>> key = ECC.generate(curve='P-256')
     >>>
